@@ -1,0 +1,324 @@
+[
+  {
+    "id": "80l9i1vooktsxszfb",
+    "name": "999-652-3925",
+    "description": "systematic",
+    "brand": "Micah_Schuster44",
+    "price": 300,
+    "category": "smartphones",
+    "createdAt": "2021-09-20T17:43:22.198Z",
+    "updatedAt": "2021-09-20T17:43:22.198Z"
+  },
+  {
+    "id": "80l9i12o4ktsxte6m",
+    "name": "229-655-2287",
+    "description": "hybrid",
+    "brand": "Chris_Farrell16",
+    "price": 300,
+    "category": "smartphones",
+    "createdAt": "2021-09-20T17:43:41.325Z",
+    "updatedAt": "2021-09-20T17:43:41.325Z"
+  },
+  {
+    "id": "80l9i1c58ktsxtf3f",
+    "name": "342-432-2513",
+    "description": "encompassing",
+    "brand": "Moses_Funk91",
+    "price": 300,
+    "category": "smartphones",
+    "createdAt": "2021-09-20T17:43:42.506Z",
+    "updatedAt": "2021-09-20T17:43:42.506Z",
+    "imageURL": "C:\\Users\\justb\\Documents\\full_stack_developement\\Strive\\ClassWork\\amazon-backend-team-project\\public\\80l9i1td0ktu55kma.jpg"
+  },
+  {
+    "id": "80l9i1hngktt2uewq",
+    "name": "813-210-4232",
+    "description": "value-added",
+    "brand": "Trycia.Kessler",
+    "price": 300,
+    "category": "hardware",
+    "createdAt": "2021-09-20T20:04:27.001Z",
+    "updatedAt": "2021-09-20T20:04:27.001Z"
+  },
+  {
+    "id": "80l9i1x6sktt2uje3",
+    "name": "964-512-1607",
+    "description": "directional",
+    "brand": "Durward_Hansen",
+    "price": 300,
+    "category": "hardware",
+    "createdAt": "2021-09-20T20:04:32.810Z",
+    "updatedAt": "2021-09-20T20:04:32.810Z"
+  },
+  {
+    "id": "80l9i1xioktt2ukcn",
+    "name": "535-456-3651",
+    "description": "5th generation",
+    "brand": "Cathy_Abbott87",
+    "price": 300,
+    "category": "hardware",
+    "createdAt": "2021-09-20T20:04:34.054Z",
+    "updatedAt": "2021-09-20T20:04:34.054Z"
+  },
+  {
+    "id": "80l9i1xioktt2ulbt",
+    "name": "404-886-8708",
+    "description": "6th generation",
+    "brand": "Glenna_Schimmel",
+    "price": 300,
+    "category": "hardware",
+    "createdAt": "2021-09-20T20:04:35.321Z",
+    "updatedAt": "2021-09-20T20:04:35.321Z"
+  },
+  {
+    "id": "80l9i1xioktt2ultb",
+    "name": "290-939-1657",
+    "description": "mobile",
+    "brand": "Kelli_Spencer",
+    "price": 300,
+    "category": "hardware",
+    "createdAt": "2021-09-20T20:04:35.951Z",
+    "updatedAt": "2021-09-20T20:04:35.951Z"
+  },
+  {
+    "id": "80l9i1v8kktt2umpt",
+    "name": "511-390-2470",
+    "description": "motivating",
+    "brand": "Abbigail_Roberts71",
+    "price": 300,
+    "category": "hardware",
+    "createdAt": "2021-09-20T20:04:37.120Z",
+    "updatedAt": "2021-09-20T20:04:37.120Z"
+  },
+  {
+    "id": "80l9i1x30ktt2usw3",
+    "name": "842-911-4028",
+    "description": "secondary",
+    "brand": "Jimmie80",
+    "price": 300,
+    "category": "electronics",
+    "createdAt": "2021-09-20T20:04:45.122Z",
+    "updatedAt": "2021-09-20T20:04:45.122Z"
+  },
+  {
+    "id": "80l9i1dx4ktt2utk4",
+    "name": "759-585-0930",
+    "description": "explicit",
+    "brand": "Dalton.Lind",
+    "price": 300,
+    "category": "electronics",
+    "createdAt": "2021-09-20T20:04:45.987Z",
+    "updatedAt": "2021-09-20T20:04:45.987Z"
+  },
+  {
+    "id": "80l9i1jbsktt2uugy",
+    "name": "310-249-2467",
+    "description": "value-added",
+    "brand": "Dejon_Kutch",
+    "price": 300,
+    "category": "electronics",
+    "createdAt": "2021-09-20T20:04:47.169Z",
+    "updatedAt": "2021-09-20T20:04:47.169Z"
+  },
+  {
+    "id": "80l9i1jbsktt2uuyr",
+    "name": "777-324-9943",
+    "description": "value-added",
+    "brand": "Kristin70",
+    "price": 300,
+    "category": "electronics",
+    "createdAt": "2021-09-20T20:04:47.811Z",
+    "updatedAt": "2021-09-20T20:04:47.811Z"
+  },
+  {
+    "id": "80l9i1td0ktu682gm",
+    "product_name": "3310",
+    "description": "asdf",
+    "brand": "Nokia",
+    "price": "234",
+    "category": "Computers",
+    "createdAt": "2021-09-21T14:26:49.078Z",
+    "updatedAt": "2021-09-21T14:26:49.078Z"
+  },
+  {
+    "id": "80l9i1td0ktu6a0ww",
+    "product_name": "3310",
+    "description": "asdf",
+    "brand": "Nokia",
+    "price": "234",
+    "category": "Computers",
+    "createdAt": "2021-09-21T14:28:20.384Z",
+    "updatedAt": "2021-09-21T14:28:20.384Z"
+  },
+  {
+    "id": "80l9i1td0ktu6f3ms",
+    "product_name": "331",
+    "description": "it is nokia",
+    "brand": "Nokia",
+    "price": "400",
+    "category": "",
+    "createdAt": "2021-09-21T14:32:17.189Z",
+    "updatedAt": "2021-09-21T14:32:17.189Z"
+  },
+  {
+    "id": "80l9i1td0ktu6g6x3",
+    "product_name": "331",
+    "description": "it is nokia",
+    "brand": "Nokia",
+    "price": "400",
+    "category": "",
+    "createdAt": "2021-09-21T14:33:08.103Z",
+    "updatedAt": "2021-09-21T14:33:08.103Z"
+  },
+  {
+    "id": "80l9i1td0ktu6lcvi",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "",
+    "createdAt": "2021-09-21T14:37:09.102Z",
+    "updatedAt": "2021-09-21T14:37:09.102Z"
+  },
+  {
+    "id": "80l9i1td0ktu6o5lr",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:39:19.647Z",
+    "updatedAt": "2021-09-21T14:39:19.647Z"
+  },
+  {
+    "id": "80l9i1td0ktu6okby",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:39:38.734Z",
+    "updatedAt": "2021-09-21T14:39:38.734Z"
+  },
+  {
+    "id": "80l9i1td0ktu6ovor",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:39:53.452Z",
+    "updatedAt": "2021-09-21T14:39:53.452Z"
+  },
+  {
+    "id": "80l9i1td0ktu6pjjo",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:40:24.372Z",
+    "updatedAt": "2021-09-21T14:40:24.372Z"
+  },
+  {
+    "id": "80l9i1td0ktu6pu45",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:40:38.069Z",
+    "updatedAt": "2021-09-21T14:40:38.069Z"
+  },
+  {
+    "id": "80l9i1td0ktu6q812",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:40:56.102Z",
+    "updatedAt": "2021-09-21T14:40:56.102Z"
+  },
+  {
+    "id": "80l9i1td0ktu6s03z",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:42:19.151Z",
+    "updatedAt": "2021-09-21T14:42:19.151Z"
+  },
+  {
+    "id": "80l9i1td0ktu6ssiq",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:42:55.970Z",
+    "updatedAt": "2021-09-21T14:42:55.970Z"
+  },
+  {
+    "id": "80l9i1td0ktu6stn2",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:42:57.422Z",
+    "updatedAt": "2021-09-21T14:42:57.422Z"
+  },
+  {
+    "id": "80l9i1td0ktu6t3hd",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:43:10.177Z",
+    "updatedAt": "2021-09-21T14:43:10.177Z"
+  },
+  {
+    "id": "80l9i1td0ktu6t8fz",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:43:16.607Z",
+    "updatedAt": "2021-09-21T14:43:16.607Z"
+  },
+  {
+    "id": "80l9i1td0ktu6tst9",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:43:43.005Z",
+    "updatedAt": "2021-09-21T14:43:43.005Z"
+  },
+  {
+    "id": "80l9i1td0ktu6zakr",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:47:59.307Z",
+    "updatedAt": "2021-09-21T14:47:59.307Z"
+  },
+  {
+    "id": "80l9i1td0ktu70lhu",
+    "product_name": "3310",
+    "description": "It's a NOKIA. What else is there to say",
+    "brand": "Nokia",
+    "price": "99999",
+    "category": "Mobile Phones",
+    "createdAt": "2021-09-21T14:49:00.114Z",
+    "updatedAt": "2021-09-21T14:49:00.114Z",
+    "imageURL": "C:\\Users\\justb\\Documents\\full_stack_developement\\Strive\\ClassWork\\amazon-backend-team-project\\public\\80l9i1td0ktu70li4.jpg"
+  }
+]

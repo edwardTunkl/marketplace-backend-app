@@ -1,0 +1,51 @@
+[
+  {
+    "reviewId": "83cxa7cktsm8ja8",
+    "comment": "Hello, how are you?",
+    "rate": 4,
+    "createdAt": "2021-09-20T12:19:32.383Z"
+  },
+  {
+    "comment": "Hello, how are you?",
+    "rate": 3,
+    "createdAt": "2021-09-20T12:19:32.383Z",
+    "reviewId": "83cx6h0ktsmh4dr",
+    "productId": "83cxca8ktslon4x",
+    "updatedAt": "2021-09-20T12:26:12.974Z"
+  },
+  {
+    "comment": "Thanks, I`m fine",
+    "rate": 2,
+    "reviewId": "83cx2h4ktsmk5rg",
+    "productId": "80l9i12o4ktsxte6m",
+    "updatedAt": "2021-09-20T12:28:34.732Z"
+  },
+  {
+    "comment": "Thanks, I`m fine",
+    "rate": 2,
+    "reviewId": "83cx2h4ktsmk5rg",
+    "productId": "80l9i12o4ktsxte6m",
+    "updatedAt": "2021-09-20T12:28:34.732Z"
+  },
+  {
+    "comment": "Thanks, I`m fine",
+    "rate": 2,
+    "reviewId": "83cx2h4ktsmk5rg",
+    "productId": "80l9i12o4ktsxte6m",
+    "updatedAt": "2021-09-20T12:28:34.732Z"
+  },
+  {
+    "comment": "Thanks, I`m fine",
+    "rate": 2,
+    "reviewId": "83cx2h4ktsmk5rg",
+    "productId": "80l9i12o4ktsxte6m",
+    "updatedAt": "2021-09-20T12:28:34.732Z"
+  },
+  {
+    "comment": "Thanks, I`m fine",
+    "rate": 2,
+    "reviewId": "83cx2dwktsmksef",
+    "productId": "80l9i12o4ktsxte6m",
+    "updatedAt": "2021-09-20T12:29:04.070Z"
+  }
+]
