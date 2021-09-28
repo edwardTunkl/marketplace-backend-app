@@ -5,7 +5,7 @@ import multer from "multer";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 
-import pool from "./db";
+import pool from "./db.js";
 
 
 const { readJSON, writeJSON } = fs;
