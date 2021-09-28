@@ -9,6 +9,8 @@ const server = express();
 
 const PORT = process.env.PORT || 3001;
 console.log(PORT);
+
+/*
 const whitelist = [process.env.FE_DEV_URL, process.env.FE_PROD_URL];
 
 const corsOpts = {
@@ -22,7 +24,8 @@ const corsOpts = {
 };
 
 server.use(cors(corsOpts));
-
+*/
+server.use(cors())
 server.use(express.json());
 server.use(express.static(publicFolderPath));
 

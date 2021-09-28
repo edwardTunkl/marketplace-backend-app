@@ -5,21 +5,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r dotenv/config  ./src/server.js",
+    "start": "node src/server.js",
     "dev": "nodemon -e js -r dotenv/config ./src/server.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zukhriddinakhmedov/amazon-backend-team-project.git"
+    "url": "git+https://github.com/edwardTunkl/marketplace-backend-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zukhriddinakhmedov/amazon-backend-team-project/issues"
+    "url": "https://github.com/edwardTunkl/marketplace-backend-app/issues"
   },
-  "homepage": "https://github.com/zukhriddinakhmedov/amazon-backend-team-project#readme",
+  "homepage": "https://github.com/edwardTunkl/marketplace-backend-app#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
