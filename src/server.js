@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import productsRouter from "./services/products/index.js";
-import { publicFolderPath } from "../utils/utils.js";
+import createTables, { publicFolderPath } from "../utils/utils.js";
 import listEndpoints from "express-list-endpoints";
 import reviewRouter from "./services/reviews/index.js";
 
@@ -10,6 +10,7 @@ const server = express();
 const PORT = process.env.PORT || 3001;
 console.log(PORT);
 
+console.log(process.env.DATABASE_URL_DEV)
 /*
 const whitelist = [process.env.FE_DEV_URL, process.env.FE_PROD_URL];
 
@@ -34,7 +35,10 @@ server.use("/reviews", reviewRouter);
 
 console.table(listEndpoints(server));
 
-server.listen(PORT, () => console.log("The server running on port: ", PORT));
+server.listen(PORT, async() => {
+  console.log("The server running on port: ", PORT)
+  await createTables()
+});
 
 server.on("error", (error) =>
   console.log(`Server is not running due to: ${error}`)

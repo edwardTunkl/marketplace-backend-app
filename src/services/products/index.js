@@ -242,8 +242,8 @@ productsRouter.post("/",async(req,res,next)=>{
           ${"'"+name+"'"},
           ${"'"+description+"'"},
           ${"'"+brand+"'"},
-          ${"'"+image_url+"'"}
-          ${"'"+price+"'"}
+          ${"'"+image_url+"'"},
+          ${"'"+price+"'"},
           ${"'"+category+"'"}
       ) RETURNING *;
       `

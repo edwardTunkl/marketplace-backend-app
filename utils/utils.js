@@ -66,7 +66,7 @@ const query = `
             comment TEXT NOT NULL,
             rate INTEGER NOT NULL,
             product INTEGER NOT NULL REFERENCES products(product_id) ON DELETE CASCADE,
-            created_at TIMESTAMPTZ DEFAULT NOW(),
+            created_at TIMESTAMPTZ DEFAULT NOW()
            
         );
 `

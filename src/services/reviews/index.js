@@ -125,7 +125,7 @@ reviewRouter.get("/", async(req, res, next) => {
     res.send(result.rows)
 
   } catch (error) {
-    console(error)
+    console.log(error)
     res.status(500).send(error)
   }
 })

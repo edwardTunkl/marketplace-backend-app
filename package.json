@@ -1,12 +1,11 @@
 {
-  "name": "amazon-backend-team-project",
+  "name": "marketplace-backend-app",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon -e js -r dotenv/config ./src/server.js ",
+    "start": "node ./src/server.js",
+    "dev": "nodemon -e js -r dotenv/config ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -37,5 +36,6 @@
   "devDependencies": {
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "description": ""
 }
