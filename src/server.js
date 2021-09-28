@@ -7,9 +7,9 @@ import reviewRouter from "./services/reviews/index.js";
 
 const server = express();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3001;
 console.log(PORT);
-const whitelist = [process.env.FE_DEV_URL, "https://anotherwebsite.com"];
+const whitelist = [process.env.FE_DEV_URL, process.env.FE_PROD_URL];
 
 const corsOpts = {
   origin: function (origin, next) {
@@ -31,7 +31,7 @@ server.use("/reviews", reviewRouter);
 
 console.table(listEndpoints(server));
 
-server.listen(PORT, () => console.log("The server running on port:", PORT));
+server.listen(PORT, () => console.log("The server running on port: ", PORT));
 
 server.on("error", (error) =>
   console.log(`Server is not running due to: ${error}`)

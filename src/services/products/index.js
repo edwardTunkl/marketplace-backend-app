@@ -9,8 +9,12 @@ import {
   dataFolderPath,
 } from "../../../utils/utils.js";
 
+import pool from "../../../utils/db.js";
+
 const productsRouter = express.Router();
 console.log("13" + dataFolderPath);
+
+/*
 
 //to get the products
 productsRouter.get("/", async (req, res, next) => {
@@ -152,5 +156,103 @@ productsRouter.delete("/:id", async (req, res, next) => {
     next(createHttpError(400, { message: error.message }));
   }
 });
+*/
+
+// ***************** CRUD for Products ( /products GET, POST, DELETE, PUT)
+
+//---GET---
+
+productsRouter.get("/", async(req, res, next) =>{
+try {
+    const query = `SELECT * FROM products;`
+    const result = await pool.query(query)
+    res.send(result.rows)
+
+} catch (error) {
+  console.log(error)
+  res.status(500).send(error)
+}
+})
+
+//---GET:id---
+
+productsRouter.get("/:id", async(req, res, next) =>{
+  try {
+    const query = `SELECT * FROM products WHERE pouduct_id=${req.params.id};`
+    const result = await pool.query(query)
+
+    if(result.rows.length > 0){
+      const product = result.rows[0]
+      const reviewsQuery = `SELECT * FROM reviews WHERE product=${req.params.id};`
+      const reviewsResult = await pool.query(reviewsQuery)
+      const reviews = reviewsResult.rows
+      res.send({product,reviews})
+  } else {
+    res.status(404).send({message:`Product with ${req.params.id} NOT FOUND.`})
+  }
+
+  } catch (error) {
+    console.log(error)
+    res.status(500).send(error)
+  }
+})
+
+//---PUT---
+
+productsRouter.put("/:id", async(req,res,next) =>{
+  try {
+      const {name, description, brand, image_url, price, category} = req.body;
+      const query =`
+          UPDATE products 
+          SET 
+              name=${"'"+name+"'"},
+              description=${"'"+description+"'"},
+              brand=${"'"+brand+"'"},
+              image_url=${"'"+image_url+"'"},
+              price=${"'"+price+"'"},
+              category=${"'"+category+"'"},
+              updated_at= NOW()
+          WHERE product_id=${req.params.id}
+          RETURNING*;`
+      const result = await pool.query(query)
+      res.send(result.rows[0])
+  } catch (error) {
+      console.log(error)
+      res.status(500).send(error)
+  }
+})
+
+//---POST---
+
+productsRouter.post("/",async(req,res,next)=>{
+  try {
+      const {name, description, brand, image_url, price, category} = req.body;
+      const query =`
+      INSERT INTO products
+      (
+          name,
+          description,
+          brand,
+          image_url,
+          price,
+          category
+      )
+      VALUES 
+      (
+          ${"'"+name+"'"},
+          ${"'"+description+"'"},
+          ${"'"+brand+"'"},
+          ${"'"+image_url+"'"}
+          ${"'"+price+"'"}
+          ${"'"+category+"'"}
+      ) RETURNING *;
+      `
+      const result = await pool.query(query)
+      res.status(201).send(result.rows[0])
+  } catch (error) {
+      console.log(error)
+      res.status(500).send(error)
+  }
+})
 
 export default productsRouter;
